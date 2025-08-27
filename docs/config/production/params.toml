@@ -7,11 +7,6 @@
 # - "latestTag" - docker image tag for the latest patch version. Must be changed
 #                 on every patch release of respective branch
 [[versions]]
-version = "dev"
-dirpath = "dev"
-url = "/dev/"
-sitemapExclude = true
-[[versions]]
 version = "1.49"
 dirpath = "latest"
 url = "/latest/"
@@ -27,3 +22,8 @@ url = "/1.47/"
 version = "1.46"
 dirpath = "1.46"
 url = "/1.46/"
+[[versions]]
+version = "dev"
+dirpath = "dev"
+url = "/dev/"
+sitemapExclude = true
